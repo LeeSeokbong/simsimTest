@@ -6,11 +6,26 @@
   font-style: normal;
 }
 
-body #title {
+body #homeTitle {
   text-align: center;
   font-family: "DungGeunMo";
 }
 
 #startBtn {
   font-family: "DungGeunMo";
+}
+
+.textBox .thumbnail img {
+  width: 80%;
+  border: 2px solid #222;
+}
+
+.textBox .thumbnail .caption {
+  text-align: center;
+  font-family: "DungGeunMo";
+}
+
+.textBox .thumbnail .homeTestStartBtn {
+  width: 40%;
+  font-size: 20px;
 }
