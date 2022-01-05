@@ -1,0 +1,8 @@
+#previousLifeBody {
+  text-align: center;
+}
+
+#previousLifeBody .textBox {
+  display: flex;
+  justify-content: center;
+}
