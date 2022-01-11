@@ -1,8 +1,21 @@
 #previousLifeBody {
   text-align: center;
+  font-family: "DungGeunMo";
+}
+
+#previousLifeQuestion {
+  font-size: 24px;
 }
 
 #previousLifeBody .textBox {
   display: flex;
   justify-content: center;
+  font-family: "DungGeunMo";
+}
+
+.answerElem button {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
 }

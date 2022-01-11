@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <link rel="stylesheet" href="../common.css" />
   <link rel="stylesheet" href="previousLife.css" />
   <link
     rel="stylesheet"
@@ -11,22 +12,23 @@
 <body id="previousLifeBody">
   <button class="homeBtn">HOME으로 가기</button>
   <h1>질문.1</h1>
+  <p id="previousLifeQuestion"></p>
   <div class="textBox row">
-    <div class="col-sm-6 col-md-6">
+    <div class="col-sm-6 col-md-4">
       <div id="previousLifeTest" class="thumbnail">
         <img src="../img/previousLifeThumbnail.png" />
         <div class="caption">
-          <h3>전생 테스트</h3>
-          <p>나는 전생에 뭐였을까!?</p>
-          <p>
-            <button class="previousLifeQ1">1번사항</button>
-            <button class="previousLifeQ2">2번사항</button>
-            <button class="previousLifeQ3">3번사항</button>
-            <button class="previousLifeQ4">4번사항</button>
-          </p>
+          <h3>선택</h3>
+          <div class="answerElem">
+            <button id="previousLifeAnswer1" data-i="1"></button>
+            <button id="previousLifeAnswer2" data-i="2"></button>
+            <button id="previousLifeAnswer3" data-i="3"></button>
+            <button id="previousLifeAnswer4" data-i="4"></button>
+          </div>
         </div>
       </div>
     </div>
+    <div class="hideAnswer"></div>
     <script type="text/javascript" src="previousLife.js"></script>
   </div>
 </body>
